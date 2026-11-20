@@ -382,7 +382,7 @@ const planOf=m=>PLANS.find(p=>p.id===plans[m.id]);
 const priceOf=m=>m.voice?planOf(m).price:m.price;
 const TIERS=[{min:1,pct:0,label:'1 a 5 lojas'},{min:6,pct:15,label:'6+ lojas: 15%'},{min:21,pct:20,label:'21+ lojas: 20%'},{min:51,pct:25,label:'51+ lojas: 25%'},{min:100,pct:35,label:'100+ lojas: 35%'}];
 const HOURS_PER_AGENT=176;
-const sel=new Set();
+const sel=new Set(['whatsapp']);
 const $=id=>document.getElementById(id);
 const brl=v=>'R$ '+Math.round(v).toLocaleString('pt-BR');
 const check='<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>';
