@@ -1,4 +1,9 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/centraia", "destination": "/centralia", "permanent": false },
+    { "source": "/central-ia", "destination": "/centralia", "permanent": false },
+    { "source": "/calculadora", "destination": "/centralia", "permanent": false }
+  ]
 }
